@@ -1,0 +1,17 @@
+hello.world 
+var square = {
+    bg: {
+        scr: 'backgroud.jgp'
+    }
+};
+game.addEventlistener('loaded', function() {
+    game.introScreen = BLLOCK.introScreen(sqaure, simpleblock)
+});
+game.load()
+game.loadingScreen = BLOCKS.loadingScreen(square.loading, simpleblock);
+element.style.color 
+= 'pink';
+BLOCKS.degub('hello')
+BLOCKS.textField(fontcolor, 'pink';) 
+BLOCKS.textField(fontSize, 24)
+BLOCKS.textField(text, 'simpleblock')
