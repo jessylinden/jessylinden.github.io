@@ -1,12 +1,30 @@
 hello.world 
 <p class="nice">this is a <strong>game created by Jessica</strong> called simpleblock hope you injoy</p>
-<canvas>
-    <h2>Shapes</h2>
-    <p> A square with a black border.
-        In the background is a pink circle.
-        partially overlaying the <a href="http://en.wikipedia.org/wiki/Circle" onfocus="drawCircle();" onblur="drawPicture();">circle</a>
-        Partially overlaying the circle is black
-        <a href="http://en.wikipidia.org/wiki/Square" onfocus="drawSquare();" onblur="drawPicture();">square</a>
-        and a purple <a href="http://en.wikipipedia.org/wiki/Triangle" onfocus="drawTriangle();" onblur="drawPicture();">triangle</a>
-        both of which are semi-opaque, so the full circle can be seen underneath.</p>
-</canvas>
+/* Keyword values */
+background-color: red;
+background-color: indigo;
+
+/* Hexadecimal value */
+background-color: #bbff00;    /* Fully opaque */
+background-color: #bf0;       /* Fully opaque shorthand */
+background-color: #11ffee00;  /* Fully transparent */
+background-color: #1fe0;      /* Fully transparent shorthand  */
+background-color: #11ffeeff;  /* Fully opaque */
+background-color: #1fef;      /* Fully opaque shorthand  */
+
+/* RGB value */
+background-color: rgb(255, 255, 128);        /* Fully opaque */
+background-color: rgba(117, 190, 218, 0.5);  /* 50% transparent */
+
+/* HSL value */
+background-color: hsl(50, 33%, 25%);         /* Fully opaque */
+background-color: hsla(50, 33%, 25%, 0.75);  /* 75% transparent */
+
+/* Special keyword values */
+background-color: currentcolor;
+background-color: transparent;
+
+/* Global values */
+background-color: currentcolor;
+background-color: transparent; 
+background-color: transparent;
