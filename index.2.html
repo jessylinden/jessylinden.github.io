@@ -16,40 +16,4 @@ hello.world
     <body>
         <script>
             (function() {
-                var game = new Phaser.game(320, 480, Phaser.CANVAS, 'game');
-                game.state.add('Boot', Square.Boot);
-                game.state.add('Preloader', Square.Preloader);
-                game.state.add('MainMenu', Square.MainMenu);
-                game.state.add('Howto', Square.Howto);
-                game.state.add('game', Square.game);
-                game.state.start('Boot');
-            })();
-        </script>
-    </body>
-</html>
-var game = new Phaser.GAme(320, 480, Phaser.CANVAS, 'game');
-<canvas id='game' width='320' height='480'></canvas>
-game.state.add('Boot', Square.Boot);
-var Square = {
-    _WIDTH: 320,
-    _HEIGHT: 480
-};
-Square.Boot = function(game) {};
-Square.Boot.prototype = {
-    preloader: function() {
-        this.load.image('preloaderBg', 'img/loading-bg.png');
-        this.load.image('preloaderBar', 'img/loading-bar.png');
-    },
-    create: function() {
-        this.game.scale.scaleMode = phaser.ScaleManager.SHOW_ALL;
-        this.game.scale.pageAlignHorizontally = true;
-        this.game.scale.pageAliginVertically = true;
-        this.game.state.start('Preloader');
-    }
-};
-Square.Preloader = function(game) {};
-Square.Preloader.prototype = {
-    preload: function() {
-        this.preloadBg = 
-    }
-}
+  
