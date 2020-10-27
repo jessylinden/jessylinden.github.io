@@ -1,7 +1,9 @@
 h1 {
     color: rgb(25, 96, 99);
   }
-  
+  h2 {
+      color: rgb(25, 96, 99)
+  }
   p, li {
       color: rgb(25, 96, 99)
   }
