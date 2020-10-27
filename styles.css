@@ -2,7 +2,7 @@ h1 {
     color: rgb(25, 96, 99);
   }
   
-  p {
+  p, li {
       color: rgb(25, 96, 99)
   }
   .special {
