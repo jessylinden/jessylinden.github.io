@@ -1,11 +1,14 @@
 h1 {
-    color: rgb(25, 96, 99);
+    color: rgb(27, 118, 124);
   }
+p, li {
+  color: rgb(27, 118, 124)
+}
   h2 {
-      color: rgb(25, 96, 99)
+      color: rgb(27, 118, 124)
   }
   p, li {
-      color: rgb(25, 96, 99)
+      color: rgb(27, 118, 124)
   }
   .special {
     color: orange;
