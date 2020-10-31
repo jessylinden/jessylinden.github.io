@@ -10,7 +10,6 @@ p, li {
   p, li {
       color: rgb(27, 118, 124)
   }
-  .special {
-    color: orange;
-    font-weight: bold;
+  li {
+    list-style-type: circle;
   }
