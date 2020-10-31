@@ -14,9 +14,8 @@ p, li {
     list-style-type: circle;
   }
   .box {
-        background-color: rgb(81, 199, 140);
-  }
-  h2 {
-    background-color: rgb(81, 199, 140)
-    color black; 
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
   }
