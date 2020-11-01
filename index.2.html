@@ -33,8 +33,23 @@ hello.world
             </artical>
         </main>
         </html>
-        <canvas id="canvas" width="150" height="150"></canvas>
-        
-        var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext('2d');
-        console.log(ctx);
+        <html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Canvas tutorial</title>
+    <script type="text/javascript">
+      function draw() {
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext) {
+          var ctx = canvas.getContext('2d');
+        }
+      }
+    </script>
+    <style type="text/css">
+      canvas { border: 1px solid black; }
+    </style>
+  </head>
+  <body onload="draw();">
+    <canvas id="tutorial" width="1050" height="540"></canvas>
+  </body>
+</html>
