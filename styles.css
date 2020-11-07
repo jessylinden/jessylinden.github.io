@@ -1,16 +1,21 @@
 h1 {
-    color: rgb(27, 118, 124);
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px
+    color rgb(27, 118, 124);
   }
 p, li {
-  color: rgb(27, 118, 124)
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px
+  color rgb(27, 118, 124)
 }
   h2 {
-      color: rgb(27, 118, 124)
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px
+      color rgb(27, 118, 124)
   }
   p, li {
     font-family: 'Indie Flower', cursive;
     font-size: 20px
-    
-      color: rgb(27, 118, 124)
+     color rgb(27, 118, 124)
   }
  
