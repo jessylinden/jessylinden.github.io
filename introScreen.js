@@ -1,16 +1,11 @@
 
 (function(){
     "use strict";
-    
-    if (true) {
-        statement_1;
-      } else {
-        statement_2;
-      }
+    /* Start of your code */
     function greetMe(yourName) {
       alert('Hello ' + yourName);
     }
     
     greetMe('me');
-    /*end*/ 
+    /* End of your code */
   })();
