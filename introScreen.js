@@ -7,6 +7,6 @@
       alert('Hello ' + yourName);
     }
     
-    greetMe('World');
+    greetMe('me');
     /*end*/ 
   })();

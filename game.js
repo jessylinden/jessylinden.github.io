@@ -1,12 +1,17 @@
 (function(){
     "use strict";
-    /* start */
-
+   
+    if (true) {
+        Game.load;
+      } else {
+        statement_2;
+      }
     function greetMe(yourName) {
       alert('Hello ' + yourName);
     }
     
-    greetMe('world');
-    /*end*/ 
+    greetMe('World');
+    /* End of your code */
   })();
   
+
