@@ -3,7 +3,8 @@
     "use strict";
 
     if (true) {
-      var gamecanvas = ('background.pjg')
+      var gamecanvas = ('C:\Users\jessi\OneDrive\Pictures\background.jpg')
+
       } else {
         statement_2;
       }
