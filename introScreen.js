@@ -1,13 +1,8 @@
-
+var id= "canvas.2"
 (function(){
     "use strict";
 
-    if (true) {
-      var gamecanvas = ('C:\Users\jessi\OneDrive\Pictures\background.jpg')
-
-      } else {
-        statement_2;
-      }
+      var id="canvas.2" = ('C:\Users\jessi\OneDrive\Pictures\background.jpg')
 
     function greetMe(yourName) {
       alert('Hello ' + yourName);
