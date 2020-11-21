@@ -3,7 +3,7 @@
     "use strict";
 
     if (true) {
-        canvasBackground = ('background.pjg')
+      var gamecanvas = ('background.pjg')
       } else {
         statement_2;
       }
