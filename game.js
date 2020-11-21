@@ -1,6 +1,6 @@
 (function(){
     "use strict";
-    var BLOCKS;
+    /* start */
 
     function greetMe(yourName) {
       alert('Hello ' + yourName);
