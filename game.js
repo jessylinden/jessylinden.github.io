@@ -6,7 +6,7 @@
       alert('Hello ' + yourName);
     }
     
-    greetMe('World');
+    greetMe('welcome to my random page of trying to create a game');
     /*end*/ 
   })();
   
