@@ -1,7 +1,12 @@
 
 (function(){
     "use strict";
-    /* start */
+
+    if (true) {
+        canvasBackground = ('background.pjg')
+      } else {
+        statement_2;
+      }
 
     function greetMe(yourName) {
       alert('Hello ' + yourName);
