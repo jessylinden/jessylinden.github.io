@@ -35,3 +35,6 @@ p, li {
      color: rgb(27, 118, 124)
   }
   
+  .a {
+    background-image: linear-gradient(105deg, rgba(0,249,255,1) 39%, rgba(51,56,57,1) 96%);
+  }
