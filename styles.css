@@ -22,7 +22,9 @@ h1 {
   font-size: 60px;
   text-align: center;
   color: rgb(27, 118, 124);
-  }
+  border: 0.5em solid black
+  
+}
 p, li {
   color: rgb(27, 118, 124)
 }
